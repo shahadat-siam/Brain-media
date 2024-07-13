@@ -19,10 +19,10 @@ const Navbar = () => {
         <div>
             <ul id="navbar">
                 <li><a href="#" className="active">Home</a></li>
-                <li><a href="# ">About Us</a></li>
-                <li><a href="# ">Mission</a></li>
-                <li><a href="# ">Vision</a></li>
-                <li><a href="#">Contact</a></li> 
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#service">service</a></li> 
                 <a href="#" id="close"><i onClick={removeMenu} >< IoMdClose/></i></a>
             </ul>
         </div>

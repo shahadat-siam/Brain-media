@@ -22,7 +22,7 @@ export default function Carosoul() {
   const text3 = 'Teamwork is the collaborative effort of a group to achieve a common goal '
   const text2 = ''
   return (
-    <div className='mb-8 mx-auto'>
+    <div className='  mx-auto'>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
