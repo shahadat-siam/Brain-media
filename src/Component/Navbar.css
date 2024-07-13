@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 70px;
+    padding: 20px 50px;
     background-color: #E3E6F3 ;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
 }
@@ -65,7 +65,7 @@ body{
         z-index: 999;
     }
     #header{
-        padding: 20px 40px;
+        padding: 20px 30px;
     }
     #navbar.active{
        right: 0px;
