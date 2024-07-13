@@ -1,6 +1,7 @@
 import { IoMdClose } from "react-icons/io";
 import { RiMenu2Line } from "react-icons/ri";
 import "./Navbar.css";  
+import Logo from "./Logo";
 const Navbar = () => {
   const hundleMenuBar = () => {
     const nav = document.getElementById("navbar");
@@ -13,8 +14,8 @@ const Navbar = () => {
 
   return (
     <>
-     <section id="header">
-        <a href="#" className="text-4xl font-semibold">Brain Media</a>
+     <section id="header" >
+        <a href="#" className="text-4xl font-semibold"><Logo/></a>
         <div>
             <ul id="navbar">
                 <li><a href="#" className="active">Home</a></li>
